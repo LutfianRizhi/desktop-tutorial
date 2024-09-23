@@ -110,7 +110,6 @@ int main() {
 
             delayMessage("Bot's turn...");
             
-            // Bot hits
             if (bulletChamber[bulletPosition] == 1) {
                 delayMessage("BANG!");
                 delayMessage("CONGRATULATIONS YOU WIN!");
